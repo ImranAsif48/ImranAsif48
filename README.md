@@ -1,4 +1,6 @@
-### Hi there 👋
+### Hi there, I'm Imran Asif 👋
+
+I am a third year Semantic Web Ph.D. [Student at School of Mathematical and Computer Sciences Heriot Watt University](https://www.hw.ac.uk/uk/schools/mathematical-computer-sciences.htm). 
 
 <!--
 **ImranAsif48/ImranAsif48** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
