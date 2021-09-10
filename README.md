@@ -32,24 +32,41 @@ I am a third year Semantic Web Ph.D. Student at [School of Mathematical and Comp
 ## 💼 Skills
 ### Frontend Development
 ![](https://img.shields.io/badge/Code-JavaScript-informational?style=flat&logo=JavaScript&logoColor=white&color=4AB197)
+![](https://img.shields.io/badge/Code-JQuery-informational?style=flat&logo=jquery&logoColor=white&color=4AB197) 
 ![](https://img.shields.io/badge/Code-Angular-informational?style=flat&logo=angular&logoColor=white&color=4AB197) 
 ![](https://img.shields.io/badge/Code-React-informational?style=flat&logo=react&logoColor=white&color=4AB197) 
+![](https://img.shields.io/badge/Code-Vue.Js-informational?style=flat&logo=vuedotjs&logoColor=white&color=4AB197) 
 
 ### Backend Development
 ![](https://img.shields.io/badge/Code-Java-informational?style=flat&logo=Java&logoColor=white&color=4AB197)
 ![](https://img.shields.io/badge/Code-CSharp-informational?style=flat&logo=c-sharp&logoColor=white&color=4AB197)
+![](https://img.shields.io/badge/Code-VB.NET-informational?style=flat&logo=VB.NET-5C2D91&logoColor=white&color=4AB197)
 ![](https://img.shields.io/badge/Code-.NET-informational?style=flat&logo=.net&logoColor=white&color=4AB197)
+![](https://img.shields.io/badge/Code-PHP-informational?style=flat&logo=php&logoColor=white&color=4AB197)
+![](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=white&color=4AB197)
+![](https://img.shields.io/badge/Code-C++-informational?style=flat&logo=c%2B%2B&&logoColor=white&color=4AB197)
 
 ### Databases Development
-![](https://img.shields.io/badge/Code-MongoDB-informational?style=flat&logo=MongoDB&logoColor=white&color=4AB197)
-![](https://img.shields.io/badge/Code-MySQL-informational?style=flat&logo=MySQL&logoColor=white&color=4AB197)
+![](https://img.shields.io/badge/Database-MSSQL-informational?style=flat&logo=microsoft-sql-server&logoColor=white&color=4AB197)
+![](https://img.shields.io/badge/Database-MongoDB-informational?style=flat&logo=MongoDB&logoColor=white&color=4AB197)
+![](https://img.shields.io/badge/Database-MySQL-informational?style=flat&logo=MySQL&logoColor=white&color=4AB197)
+![](https://img.shields.io/badge/Database-Neo4J-informational?style=flat&logo=neo4j&logoColor=white&color=4AB197)
+![](https://img.shields.io/badge/Database-SQLite-informational?style=flat&logo=sqlite&logoColor=white&color=4AB197)
+![](https://img.shields.io/badge/Database-Postgres-informational?style=flat&logo=postgresql&logoColor=white&color=4AB197)
+![](https://img.shields.io/badge/Database-Cassandra-informational?style=flat&logo=cassandra&logoColor=white&color=4AB197)
 
 ### Web Designing
 ![](https://img.shields.io/badge/Style-CSS-informational?style=flat&logo=css3&logoColor=white&color=4AB197)
 ![](https://img.shields.io/badge/Style-Bootstrap-informational?style=flat&logo=bootstrap&logoColor=white&color=4AB197) 
 ![](https://img.shields.io/badge/Style-MDB-informational?style=flat&logo=mdbootstrap&logoColor=white&color=4AB197)  
 
+### Servers
+![](https://img.shields.io/badge/Server-Tomcat-informational?style=flat&logo=apache&logoColor=white&color=4AB197)
+![](https://img.shields.io/badge/Server-IIS-informational?style=flat&logo=iis&logoColor=white&color=4AB197)
+![](https://img.shields.io/badge/Server-Node.js-informational?style=flat&logo=node.js&logoColor=white&color=4AB197)
+
 ### More Skills
+![](https://img.shields.io/badge/Tools-Jupyter-informational?style=flat&logo=jupyter&logoColor=white&color=4AB197)
 ![](https://img.shields.io/badge/Tools-Docker-informational?style=flat&logo=docker&logoColor=white&color=4AB197)
 ![](https://img.shields.io/badge/Tools-NPM-informational?style=flat&logo=npm&logoColor=white&color=4AB197)
 ![](https://img.shields.io/badge/Tools-Postman-informational?style=flat&logo=Postman&logoColor=white&color=4AB197)
