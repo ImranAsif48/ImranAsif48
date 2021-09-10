@@ -65,6 +65,16 @@ I am a third year Semantic Web Ph.D. Student at [School of Mathematical and Comp
 ![](https://img.shields.io/badge/Server-IIS-informational?style=flat&logo=iis&logoColor=white&color=4AB197)
 ![](https://img.shields.io/badge/Server-Node.js-informational?style=flat&logo=node.js&logoColor=white&color=4AB197)
 
+### Semantic Web Technologies
+![](https://img.shields.io/badge/W3C-RDF-informational?style=flat&logo=rdf&logoColor=white&color=4AB197)
+![](https://img.shields.io/badge/W3C-SPARQL-informational?style=flat&logo=SPARQL&logoColor=white&color=4AB197)
+![](https://img.shields.io/badge/W3C-JSON_LD-informational?style=flat&logo=JSON-LD&logoColor=white&color=4AB197)
+![](https://img.shields.io/badge/Tools-GraphDB-informational?style=flat&logo=Graphdb&logoColor=white&color=4AB197)
+![](https://img.shields.io/badge/Tools-Jena_Fuseki_Server-informational?style=flat&logo=fuseki&logoColor=white&color=4AB197)
+![](https://img.shields.io/badge/Tools-Protege-informational?style=flat&logo=Protege&logoColor=white&color=4AB197)
+![](https://img.shields.io/badge/Library-Jena_API-informational?style=flat&logo=fuseki&logoColor=white&color=4AB197)
+![](https://img.shields.io/badge/Library-RDF4J-informational?style=flat&logo=fuseki&logoColor=white&color=4AB197)
+
 ### More Skills
 ![](https://img.shields.io/badge/Tools-Jupyter-informational?style=flat&logo=jupyter&logoColor=white&color=4AB197)
 ![](https://img.shields.io/badge/Tools-Docker-informational?style=flat&logo=docker&logoColor=white&color=4AB197)
