@@ -51,7 +51,7 @@ jQuery(document).ready(function ($) {
         $('.cd-quick-view .cd-item-info p').html('');
         $('.cd-quick-view .cd-item-info a').attr('href', '');
 
-        let thesisURL = '../thesis/' + url.split('/')[(url.split('/')).length - 1].split('.')[0] + '.pdf';
+        let thesisURL = 'thesis/' + url.split('/')[(url.split('/')).length - 1].split('.')[0] + '.pdf';
         $('.cd-quick-view .cd-slider li img').attr('src', url);
         $('.cd-quick-view .cd-item-info h2').html(title);
         $('.cd-quick-view .cd-item-info p').html(abstract);
