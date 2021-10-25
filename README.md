@@ -1,4 +1,4 @@
-### Hi there, I'm Imran Asif 👋
+### Hi there, I'm [Imran Asif](https://imranasif48.github.io/ImranAsif48/) 👋
 
 I am a third year Semantic Web Ph.D. Student at [School of Mathematical and Computer Sciences, Heriot Watt University](https://www.hw.ac.uk/uk/schools/mathematical-computer-sciences.htm), Edinburgh, UK. I am broadly interested in the semantic web, semantic web tools, data visualization, data management, data integration, data extraction, Knowledge Graph, semantically enabled publications, blockchain and recent developments being made in this field. I am working on semantically enabled scholarly publications such as Nanopublications, Research Objects, and Scholarly HTML in my PhD. The best part of my research is working on semantic web technologies like OWL, RDF, RDFS, Jena API, Java IDE, Jupyter Notebook, Python and SPARQL queries development. In future, I am interested in working on more complex and challenging semantic web technologies.
 
