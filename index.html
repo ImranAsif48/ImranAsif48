@@ -564,7 +564,7 @@
                 <div class="col-md-6 embed-responsive embed-responsive-4by3 pull-left">
                     <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17858.94025340348!2d-3.18576515316703!3d55.97766150929072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4887b800a5982623%3A0xebda0b8917049e7f!2sEdinburgh%20EH6!5e0!3m2!1sen!2suk!4v1632233368376!5m2!1sen!2suk" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
-                <form class="col-md-6 pull-right" action="" method="post">
+                <form id="frmContact" class="col-md-6 pull-right">
                     <fieldset>
                         <legend class="text-center">Contact Me</legend>
 
@@ -578,22 +578,26 @@
                         <!-- Email input-->
                         <div class="form-group">
                             <div class="col-md-12">
-                                <input id="email" name="email" type="text" placeholder="Your email" class="form-control">
+                                <input id="email" name="email" required type="text" placeholder="Your email" class="form-control">
                             </div>
                         </div>
 
                         <!-- Message body -->
                         <div class="form-group">
                             <div class="col-md-12">
-                                <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
+                                <textarea class="form-control" required id="message" name="body" placeholder="Please enter your message here..." rows="5"></textarea>
                             </div>
                         </div>
 
                         <!-- Form actions -->
                         <div class="form-group">
                             <div class="col-md-12 text-right">
-                                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                                <button id="btnSubmit" type="submit" class="btn btn-primary btn-lg">Submit</button>
                             </div>
+                        </div>
+
+                        <div id="msg" class="alert alert-success d-none">
+                            <strong>Success!</strong> Your message has been sent.
                         </div>
                     </fieldset>
                 </form>
@@ -652,8 +656,39 @@
         </div>
     </footer>
 
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="js/velocity.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/site.js"></script>
+
+    <script>
+        $("#frmContact").submit(function (event) {
+            event.preventDefault();
+            $.ajax({
+                type: 'POST',
+                url: 'https://mandrillapp.com/api/1.0/messages/send.json',
+                data: {
+                    'key': 'h97__yI1VNUrrm6zwyk_bQ',
+                    'message': {
+                        'from_email': $('#email').val(),
+                        'to': [
+                            {
+                                'email': 'imran.slamslogic@gmail.com',
+                                'name': $('#name').val(),
+                                'type': 'to'
+                            }
+                        ],
+                        'autotext': 'true',
+                        'subject': 'Contact me from online form',
+                        'html': $('#message').val()
+                    }
+                }
+            }).done(function (response) {
+                $('#msg').removeClass('d-none')
+                console.log(response); // if you're into that sorta thing
+            });
+        });
+
+    </script>
 </body>
 </html>
